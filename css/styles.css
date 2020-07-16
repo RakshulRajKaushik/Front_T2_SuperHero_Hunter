@@ -1,0 +1,139 @@
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSD5LR_ZftLrIZrHIo4F7HoOP5HveTTTdVfgQ&usqp=CAU");
+}
+
+/*Navigation bar*/
+nav {
+  border-bottom: 1px solid #bfc7d185;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 20px;
+}
+nav a{
+  font-size: 20px;
+  padding: 5px 15px;
+  background-color: black;
+  color:blue;
+}
+nav a:hover {
+  background: #f1f1f1;
+}
+
+#main {
+  width: 800px;
+  margin: 20px auto;
+}
+#search {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+
+/*Search Results Display*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+.search-result {
+  display: flex;
+  margin-top: 10px;
+  border: 1px solid #e5e5e5;
+  height: 11rem;
+  background-color: lightgrey;
+}
+.search-left img {
+  height: 11rem;
+}
+.search-right {
+  padding:10px 20px;
+}
+.search-right a {
+  text-decoration: none;
+  color: magenta;
+}
+.search-right a:hover {
+  text-decoration: underline;
+}
+.name {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: fantasy;
+}
+.full-name {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: cursive;
+}
+.address {
+  color: gray;
+  font-size: 17px;
+  font-family: serif;
+}
+
+/*Favourites Add or remove button*/
+.btn {
+  padding: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.add-to-fav {
+  margin-top: 20px;
+  background: #2196f3;
+}
+.remove-from-fav {
+  margin-top: 30px;
+  background: #f44336;
+}
+
+/*Toast Message*/
+#toast {
+  position: fixed;
+  top: 65px;
+  right: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+}
+.toast-error {
+  background: #ff5a5a;
+}
+.toast-success {
+  background: #8bc34a;
+}
+
+/*Superhero Details display*/
+.super-hero-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin:0 auto;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3_nYCwnh5P4bt41Ai5iGT715xvdvepYdm4g&usqp=CAU");
+}
+.super-hero-detail img {
+  height: 300px;
+  width:300px;
+}
+.super-hero-detail h1,.super-hero-detail h3 {
+  margin: 0;
+  font-family: cursive;
+}
+.super-hero-detail .power-stats div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin-top: 10px;
+  width: 200px;
+  font-family: fantasy;
+}
+.no-results {
+  background: black;
+  color: white;
+}
